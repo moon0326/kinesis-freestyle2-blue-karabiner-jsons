@@ -1,0 +1,25 @@
+{
+  "title": "Map abc left to back",
+  "rules": [
+    {
+      "manipulators": [
+        {
+          "description": "ABC <",
+          "type": "basic",
+			"from": {
+			    "key_code": "left_arrow",
+			    "modifiers": {
+			        "mandatory": ["left_control"]
+			    }
+			},
+			"to": [
+			    {
+				    "key_code": "open_bracket",
+				    "modifiers": ["command"]
+			    }
+			]
+        }
+      ]
+    }
+  ]
+}

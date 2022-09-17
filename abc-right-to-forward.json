@@ -1,0 +1,25 @@
+{
+  "title": "Map abc right to forward",
+  "rules": [
+    {
+      "manipulators": [
+        {
+          "description": "ABC >",
+          "type": "basic",
+			"from": {
+			    "key_code": "right_arrow",
+			    "modifiers": {
+			        "mandatory": ["left_control"]
+			    }
+			},
+			"to": [
+			    {
+				    "key_code": "close_bracket",
+				    "modifiers": ["command"]
+			    }
+			]
+        }
+      ]
+    }
+  ]
+}
